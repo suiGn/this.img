@@ -1,0 +1,15 @@
+{
+  "name": "this.img",
+  "version": "1.0.1",
+  "description": "this.img <img>",
+  "main": "img.js",
+  "scripts": {
+    "test": "test"
+  },
+  "keywords": [
+    "machineLearning",
+    "DataFormats"
+  ],
+  "author": "suiGn",
+  "license": "MIT"
+}
