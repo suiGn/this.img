@@ -2,7 +2,7 @@
   "name": "this.img",
   "version": "1.0.1",
   "description": "this.img <img>",
-  "main": "img.js",
+  "main": "index.js",
   "scripts": {
     "test": "test"
   },
