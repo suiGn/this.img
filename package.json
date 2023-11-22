@@ -10,6 +10,12 @@
     "machineLearning",
     "DataFormats"
   ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/suiGn/this.img.git"
+  },
+  "homepage": "https://www.npmjs.com/package/this.img",
+  "docs": "https://suiGn.github.io/this.img",
   "author": "suiGn",
   "license": "MIT",
   "repoType": "NPM Package"
