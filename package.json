@@ -1,9 +1,10 @@
 {
   "name": "this.img",
-  "version": "1.0.2",
+  "version": "1.0.21",
   "description": "this.img <img>",
   "main": "index.js",
   "scripts": {
+    "start": "node index.js",
     "test": "test"
   },
   "keywords": [
@@ -16,6 +17,7 @@
   },
   "homepage": "https://www.npmjs.com/package/this.img",
   "docs": "https://suiGn.github.io/this.img",
+  "type":"module",
   "author": "suiGn",
   "license": "MIT",
   "repoType": "NPM Package",
