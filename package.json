@@ -1,6 +1,6 @@
 {
   "name": "this.img",
-  "version": "1.0.21",
+  "version": "1.0.22",
   "description": "this.img <img>",
   "main": "index.js",
   "scripts": {
