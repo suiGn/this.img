@@ -1,6 +1,30 @@
-// Assuming thisImg.js is properly set up to use ImgFormatterNode in a Node environment
-import thisImg from '../index.js'; // Adjust the path based on your file structure
+// In this.img/tests/test_node_env.js
+import thisImg from '../index.js'; 
 
-thisImg('path/to/image.jpg')
-  .then(thisImg.promise.success)
-  .catch(thisImg.promise.error);
+const imagePath = './tests/neurons-logo.png';
+const options = {
+  width: 34,
+  height: 34,
+  channels: 3,
+  returnFileType: 'jpeg'
+};
+
+thisImg(imagePath, options)
+  .then(processedData => {
+    console.log(processedData);
+  })
+  .catch(error => {
+    console.error(error);
+  });
+  
+
+console.log("testing PRESETS.")
+
+//Use a high-resolution grayscale preset
+thisImg(imagePath, "small32")
+.then(result => {
+  console.log('Processed Image:', result);
+})
+.catch(error => {
+  console.error('Error processing image:', error);
+});
