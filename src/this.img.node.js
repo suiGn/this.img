@@ -34,5 +34,5 @@ async function thisImg(imageFile, options = 'default64') {
     }
 }
 
-console.log("this.img.node.js Loaded.");
+console.log("this.img.node.js .Loaded.");
 export default thisImg;

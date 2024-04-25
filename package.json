@@ -1,11 +1,11 @@
 {
   "name": "this.img",
-  "version": "1.0.24",
+  "version": "1.0.26",
   "description": "this.img <img>",
   "main": "./index.js",
   "browser": "./dist/this.img.browser.js",
   "scripts": {
-    "start": "node index.node.js",
+    "start": "node index.js",
     "test": "node tests/test_node.js",
     "clean": "rm -rf dist",
     "build:browser": "webpack --config webpack.browser.config.js",
