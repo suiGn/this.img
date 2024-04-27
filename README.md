@@ -12,13 +12,13 @@
 
 The `this.img` library offers several predefined presets for image processing, allowing for easy configuration depending on your needs. Below is the list of available presets:
 
-- `default64`: Standard 64x64 resolution, 3 channels (rgb) color, 'jpeg'.
-- `small32`: Small 32x32 resolution, 3 channels (rgb) color, 'jpeg'.
-- `large128`: Large 128x128 resolution, 3 channels (rgb) color, 'jpeg'.
-- `highResColor256`: High-resolution 256x256, 3 channels (rgb) color, 'jpeg'.
-- `grayscale32`: Small 32x32 resolution, grayscale 1 color channel, 'jpeg'.
-- `grayscale64`: Standard 64x64 resolution, grayscale 1 color channel, 'jpeg'.
-- `highResGray256`: High-resolution 256x256, 1 color channel. grayscale, 'jpeg'.
+- `default64`: Standard 64x64 resolution, 3 channels (rgb) color, **'jpeg'.**
+- `small32`: Small **32x32** resolution, 3 channels (rgb) color, **'jpeg'.**
+- `large128`: Large **128x128** resolution, 3 channels (rgb) color, **'jpeg'.**
+- `highResColor256`: High-resolution **256x256**, 3 channels (rgb) color, **'jpeg'.**
+- `grayscale32`: Small **32x32** resolution, grayscale 1 color channel, **'jpeg'.**
+- `grayscale64`: Standard **64x64** resolution, grayscale 1 color channel, **'jpeg'.**
+- `highResGray256`: High-resolution **256x256**, 1 color channel. grayscale, **'jpeg'.**
 
 You can use these presets directly by referencing their names when calling the `thisImg` function.
 
@@ -38,12 +38,14 @@ thisImg(imagePath, PRESETS.highResGray256)
 
 -----
 ## this.img.browser.js
-Loading the Image: Using a helper function loadImage, which returns an HTMLImageElement that can be used on a canvas.
+**Loading the Image:** Using a helper function loadImage, which returns an HTMLImageElement that can be used on a canvas.
  This function supports loading from both URLs and Blob objects.
-Drawing the Image on Canvas: Setting up a canvas element, drawing the image onto it with the specified dimensions (resizing it in the process).
-Extracting the Processed Image: Converting the canvas content to a Blob of the specified image format, then converting that Blob to an ArrayBuffer for further use or manipulation.
-Logging and Output: Providing success and error logs through predefined logging functions and returning the processed image data or error via promises.
-Setting default parameters and providing fallback sizes as a strategy for enhancing usability and flexibility in **this.img** library. Machine learning models often use specific image sizes depending on the model architecture and the task at hand. Below are some common sizes used in machine learning, along with color options, integrated as defaults or presets in your `this.img` library:
+**Drawing the Image on Canvas:** Setting up a canvas element, drawing the image onto it with the specified dimensions (resizing it in the process).
+**Extracting the Processed Image:** Converting the canvas content to a Blob of the specified image format, then converting that Blob to an ArrayBuffer for further use or manipulation.
+**Logging and Output:** Providing success and error logs through predefined logging functions and returning the processed image data or error via promises.
+Setting default parameters and providing fallback sizes as a strategy for enhancing usability and flexibility in **this.img** library. 
+
+Machine learning models often use specific image sizes depending on the model architecture and the task at hand. Below are some common sizes used in machine learning, along with color options, integrated as defaults or presets in your `this.img` library:
 
 ### Common Image Sizes for Machine Learning
 1. **Small Size**: Commonly used for basic models and when computational resources are limited.
