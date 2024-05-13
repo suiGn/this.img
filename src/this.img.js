@@ -8,5 +8,4 @@ function Img() {
 }   
 
 console.log("this .Img");
-
 export default Img;
