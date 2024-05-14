@@ -11,10 +11,10 @@ import PRESETS from './this.img.presets.js';
  * @returns {Promise<{buffer: Buffer, metadata: object}>} A promise that resolves with the processed image data.
  */
 async function thisImg(imageFile, options = 'default64') {
-    console.log(`Received options: ${JSON.stringify(options)}`); // Debug log to see what options are received
+    //console.log(`Received options: ${JSON.stringify(options)}`); // Debug log to see what options are received
 
     if (typeof options === 'string' && options in PRESETS) {
-        console.log("Using preset:", options); // Log which preset is being used
+      //  console.log("Using preset:", options); // Log which preset is being used
         options = PRESETS[options];
     } else if (typeof options === 'object') {
         options = { ...PRESETS['default64'], ...options }; // Merge with default to fill missing values

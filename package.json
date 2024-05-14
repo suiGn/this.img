@@ -1,6 +1,6 @@
 {
   "name": "this.img",
-  "version": "1.0.26",
+  "version": "1.0.3",
   "description": "this.img <img>",
   "main": "./index.js",
   "browser": "./dist/this.img.browser.js",

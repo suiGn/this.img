@@ -1,7 +1,7 @@
 // In this.img/tests/test_node_env.js
 import thisImg from '../index.js'; 
 
-const imagePath = './tests/neurons-logo.png';
+const imagePath = './neurons-logo.png';
 const options = {
   width: 34,
   height: 34,
