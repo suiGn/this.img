@@ -4,7 +4,7 @@
 
   Designed to **standardize image data,** transforming it into a **structured format** that is readily accessible and interpretable by machine learning models.
 
-  **Machine learning** models often **use specific image** sizes and styles depending on the model architecture and the task at hand. **this.img** comes with some common **presets**  used in machine learning, allowing for **easy configuration** depending on your needs. 
+  **Machine learning models** often require specific image sizes based on the model architecture and task. `this.img` includes common sizes used in machine learning, along with color options, integrated as **presets** for easy configuration.
 
   ### Below is the list of available presets:
   
@@ -54,34 +54,44 @@
   
   ## this.img.browser.js
   
-  Returns an HTMLImageElement that can be used on a canvas.
+  Returns an **HTMLImageElement** that can be used on a canvas.
    This function supports loading from both URLs and Blob objects.
   
   -----
   
   ## Core Concepts and Functionality
   
-  **Standardization of Image Content:** this.img standardizes various aspects of image data, including dimensions, color schemes, and encoding formats, ensuring uniformity and compatibility with ML models.
+  **Standardization of Image Content: **this.img** standardizes various aspects of image data, including dimensions, color schemes, and encoding formats, ensuring uniformity and compatibility with ML models.
   
   **Data-Driven Image Analysis:** The module supports data-driven approaches to image analysis, preparing image content not just for display but for in-depth computational examination and interpretation.
   
-  The ultimate goal of this.img is to ensure that every processed image is structured in a way that makes it immediately usable for machine learning purposes, enhancing the data's value and applicability in intelligent systems.
-  ----------
+  > The ultimate goal of this.img is to ensure that every processed image is structured in a way that makes it immediately usable for machine learning purposes, enhancing the data's value and applicability in intelligent systems.
   
   # About All.This
   
   ## Other Modules:
   
-  **[this.audio](https://suign.github.io/this.audio) - [this.text](https://suign.github.io/this.text) -[this.img](https://suign.github.io/this.img) - [this.DOM](https://suign.github.io/this.DOM) - [this.env](https://suign.github.io/this.env/) - [this.GUI](https://suign.github.io/this.GUI) - [this.video](https://suign.github.io/this.video) - [this.dictionaries](https://suign.github.io/this.dictionaries/)**
+  - **[this.audio](https://suign.github.io/this.audio)** 
+  - **[this.text](https://suign.github.io/this.text)** 
+  - **[this.img](https://suign.github.io/this.img)** 
+  
+  - **[this.DOM](https://suign.github.io/this.DOM)** 
+  
+  - **[this.env](https://suign.github.io/this.env/)** 
+  
+  - **[this.GUI](https://suign.github.io/this.GUI)** 
+  
+  - **[this.video](https://suign.github.io/this.video)** 
+  - **- [this.dictionaries](https://suign.github.io/this.dictionaries/)**
+  
+  
   **Modules** in **[all.this](https://neurons.me/all-this)** represents a specific **datastructure**. These classes encapsulate the functionalities and **data specific to their domain.**
   
   ## License & Policies
   
   - **Glossary**: [Neurons.me Glossary](https://suign.github.io/neurons.me/Glossary) 
   - **License**: MIT License (see LICENSE for details).
-  - **Privacy Policy**: Respects user privacy; no collection/storage of personal data.
-    [Privacy](https://www.neurons.me/privacy-policy)
-  - **Terms of Usage**: Use responsibly. No guarantees/warranties provided.
-    [Terms](https://www.neurons.me/terms-of-use) 
+  - **Privacy Policy**: [Privacy](https://www.neurons.me/privacy-policy)
+  - **Terms of Usage**: No guarantees/warranties provided. [Terms](https://www.neurons.me/terms-of-use) 
   - **Learn more** at https://neurons.me
     <img src="https://suign.github.io/neurons.me/neurons_logo.png" alt="neurons.me logo" width="123" height="123" style="width123px; height:123px;">
